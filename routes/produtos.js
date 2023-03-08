@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
-const { path } = require('../app');
 
 
 // Listar produtos Lucas e Wesley
@@ -11,8 +10,6 @@ router.get('/', function (req, res, next) {
         res.send(data) //envio tudo na tela do inmsonia
     })
 });
-
-
 
 // Listar produtos por ID Guilherme e Hélio
 router.get('/:id', function (req, res, next) {
@@ -25,8 +22,6 @@ router.get('/:id', function (req, res, next) {
         res.send(produtoProcurado)//mostro ele na tela do insmomnia
     })
 });
-
-
 
 // Criar produtos Deivid e Igor
 router.post('/', function (req, res, next) {
@@ -46,8 +41,6 @@ router.post('/', function (req, res, next) {
         res.send(produtoNovo)
     })
 });
-
-
 
 // Atualizar produtos André e Rian
 function update(req, res, next) {

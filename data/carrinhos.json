@@ -1,0 +1,45 @@
+[
+  {
+    "categoria": "Calçado",
+    "titulo": "nique",
+    "descricao": "veloz",
+    "valor": 1,
+    "desconto": 10000000,
+    "img": "https://loremflickr.com/640/480/abstract",
+    "id": "1"
+  },
+  {
+    "categoria": "Chinelo",
+    "titulo": "abidas",
+    "descricao": "veloz",
+    "valor": 100,
+    "desconto": 10,
+    "img": "https://loremflickr.com/640/480/abstract",
+    "id": "2"
+  },
+  {
+    "categoria": "calçado",
+    "titulo": "Pumas",
+    "descricao": "veloz",
+    "valor": 1,
+    "desconto": 10,
+    "img": "https://loremflickr.com/640/480/abstract",
+    "id": "3"
+  },
+  {
+    "categoria": "Calçado",
+    "titulo": "nique",
+    "descricao": "veloz",
+    "valor": 1,
+    "desconto": 10000000,
+    "img": "https://loremflickr.com/640/480/abstract",
+    "id": "4"
+  },
+  {
+    "categoria": "Calçado",
+    "titulo": "nique",
+    "descricao": "rapidao",
+    "valor": 10000,
+    "id": "5"
+  }
+]
