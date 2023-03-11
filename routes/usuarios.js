@@ -17,11 +17,15 @@ router.get('/', function (req, res, next) {
 // Listar usuarios por ID
 router.get('/:id', function (req, res, next) {
     fs.readFile('./data/usuarios.json', "utf8", (err, data) => {
+        
         try {
-            const produtos = JSON.parse(data);
+            const usuarios = JSON.parse(data);
             const id = req.params.id;
 
             const usuarioProcurado = usuarios.find((usuario) => usuario.id === id);
+            if(!usuarioProcurado) {
+                return res.status(404).send()
+            }
 
             res.send(usuarioProcurado);
         } catch (err) {

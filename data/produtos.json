@@ -3,8 +3,8 @@
         "categoria": "Calçado",
         "titulo": "nique",
         "descricao": "rapidao",
-        "valor": 10,
-        "desconto": 100,
+        "valor": 100,
+        "desconto": 5,
         "img": "https://loremflickr.com/640/480/abstract",
         "id": "1"
     },
@@ -21,8 +21,8 @@
         "categoria": "calçado",
         "titulo": "Pumas",
         "descricao": "veloz",
-        "valor": 1,
-        "desconto": 10,
+        "valor": 100,
+        "desconto": 20,
         "img": "https://loremflickr.com/640/480/abstract",
         "id": "3"
     },
@@ -30,8 +30,8 @@
         "categoria": "Calçado",
         "titulo": "nique",
         "descricao": "veloz",
-        "valor": 1,
-        "desconto": 10000000,
+        "valor": 100,
+        "desconto": 1,
         "img": "https://loremflickr.com/640/480/abstract",
         "id": "4"
     },
@@ -39,14 +39,14 @@
         "categoria": "Calçado",
         "titulo": "nique",
         "descricao": "rapidao",
-        "valor": 10000,
+        "valor": 100,
         "id": "5"
     },
     {
         "categoria": "Calçado",
         "titulo": "abidas",
         "descricao": "rapido",
-        "valor": 145,
+        "valor": 100,
         "desconto": 45,
         "img": "https://loremflickr.com/640/480/abstract",
         "id": 6

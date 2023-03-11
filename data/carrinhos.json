@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "produtos": [
+            {
+                "produto_id": "1",
+                "quantidade": "1"
+            },
+            {
+                "produto_id": "2",
+                "quantidade": "1"
+            }
+        ],
+        "desconto": 50,
+        "usuario_id": "2"
+    },
+    {
+        "id": "2",
+        "produtos": [
+            {
+                "produto_id": "4",
+                "quantidade": "1"
+            },
+            {
+                "produto_id": "5",
+                "quantidade": "4"
+            }
+        ],
+        "desconto": 20,
+        "usuario_id": "1"
+    },
+    {
+        "id": "3",
+        "produtos": [
+            {
+                "produto_id": "2",
+                "quantidade": "1"
+            },
+            {
+                "produto_id": "3",
+                "quantidade": "2"
+            }
+        ],
+        "desconto": 30,
+        "usuario_id": "3"
+    }
+]
