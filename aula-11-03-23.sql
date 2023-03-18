@@ -40,3 +40,5 @@ select * from fs08.usuario, fs08.carrinho;
 
 SELECT carrinho.desconto FROM fs08.usuario INNER JOIN fs08.carrinho ON usuario.id = carrinho.usuario_id;
 
+ALTER TABLE `fs08`.`usuario` 
+CHANGE COLUMN `username` `user` VARCHAR(45) NOT NULL ;
